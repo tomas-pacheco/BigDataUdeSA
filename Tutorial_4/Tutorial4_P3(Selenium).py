@@ -1,8 +1,6 @@
 """
-
 TUTORIAL DE BIG DATA
 Tutorial 4, Parte II
-
 """
 
 #pip install webdriver
@@ -20,6 +18,7 @@ from selenium.webdriver.chrome.options import Options
 
 options = Options()
 options.add_argument('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome')
+
 
 main_dir = '/Users/tomaspacheco/Documents/GitHub/BigDataUdeSA/Tutorial_4/'
 os.chdir(main_dir)
@@ -44,6 +43,7 @@ productos = soup.find_all('div', class_ = 'vtex-search-result-3-x-galleryItem vt
 
 # Defino df para los resultados
 df = pd.DataFrame(columns=['marca', 'producto', 'precio_lista', 'precio_descuento'])
+
 
 row = 0
 # Para cada producto de la lista de productos
@@ -140,7 +140,7 @@ for page in range(1, 1000):
     # En la página dice "No se encontró ningún producto"
     
     # Si el texto de que no encontró ningún producot NO está en el html
-    if 'No se encontró ningún producto' not in html_source:
+    if 'No se encontró ningún producto' in html_source:
         # Llamo a la función get_prices
         df2 = get_prices(html_source)
         # Lo sumo al data frame 'df_final'
