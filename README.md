@@ -15,10 +15,9 @@ Cada carpeta contiene los materiales correspondientes a una clase, incluyendo no
 | `Tutorial_4` | Selenium, Métodos no supervisados: PCA y Clusters | |
 | `Tutorial_5` | Intro a método supervisado: Histogramas & Kernels | |
 | `Tutorial_6` | Repaso Numpy y Regresión Lineal | |
-| `Tutorial_7` | Video Introducción a Clasificación: Logit & KNN | |
-| `Tutorial_8` | Clasificación II: Repaso. LDA y ROC, Comparación | |
-| `Tutorial_9` | K-fold Cross Validation | |
-| `Tutorial_10` | Regularización | |
-| `Tutorial_11` | Árboles CART | |
-| `Tutorial_12` | Métodos de Ensemble Bagging, Random Forest, Boosting | |
-| `Tutorial_13` | Survival Analysis | |
+| `Tutorial_7` | Clasificación: Logit, KNN, LDA, QDA y ROC | |
+| `Tutorial_8` | K-fold Cross Validation | |
+| `Tutorial_9` | Regularización | |
+| `Tutorial_10` | Árboles CART | |
+| `Tutorial_11` | Métodos de Ensemble Bagging, Random Forest, Boosting | |
+| `Tutorial_12` | Survival Analysis | |
