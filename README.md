@@ -18,6 +18,8 @@ Cada carpeta contiene los materiales correspondientes a una clase, incluyendo no
 | `Tutorial_7` | Clasificación: Logit, KNN, LDA, QDA y ROC | |
 | `Tutorial_8` | K-fold Cross Validation | |
 | `Tutorial_9` | Regularización | |
-| `Tutorial_10` | Árboles CART | |
-| `Tutorial_11` | Métodos de Ensemble Bagging, Random Forest, Boosting | |
-| `Tutorial_12` | Survival Analysis | |
+| `Tutorial_10` | Árboles CART.  | |
+| `Tutorial_11` | Métodos de Ensemble Bagging, Random Forest | |
+| `Tutorial_12` | Boosting; PCR, PLS | |
+| `Tutorial_13` | Step function; splines | |
+
